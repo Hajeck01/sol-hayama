@@ -1,7 +1,7 @@
 import Amplify from "aws-amplify";
 import dynamic from "next/dynamic";
 import { WalletAdapterNetwork } from "@solana/wallet-adapter-base";
-import awsExports from "../aws-exports";
+// import awsExports from "../aws-exports";
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import { LoadingProvider } from "../contexts/LoadingContext";
@@ -14,7 +14,7 @@ const WalletConnectionProvider = dynamic(() => import("../components/Wallet"), {
   ssr: false,
 });
 
-Amplify.configure(awsExports);
+// Amplify.configure(awsExports);
 
 const network = () => {
   switch (process.env.NEXT_PUBLIC_BUILD_ENV) {
@@ -33,11 +33,11 @@ function HayamaApp({ Component, pageProps }: AppProps) {
     <>
       <Seo
         imgHeight={508}
-        imgUrl="/sol-hayama.png"
+        imgUrl="/Kalzom.png"
         imgWidth={1110}
         path="https://www.sol-hayama.com"
-        title="Hayama"
-        pageDescription="Hayama - NFT trading platform on Solana"
+        title="Kalzom"
+        pageDescription="Kalzom - NFT trading platform on Solana"
       />
       <LoadingProvider>
         <ModalProvider>
