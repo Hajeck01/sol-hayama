@@ -1,9 +1,9 @@
 # FAQ
 
-### What's Hayama?
+### What's Kalzom?
 
-- Hayama is a beautiful beach in Japan 
-https://en.japantravel.com/kanagawa/isshiki-beach-hayama-in-the-summer/14660
+- Kalzom is a beautiful beach in Japan
+  https://en.japantravel.com/kanagawa/isshiki-beach-Kalzom-in-the-summer/14660
 
 ### Where is my deposit when I make an offer?
 
@@ -15,8 +15,7 @@ https://en.japantravel.com/kanagawa/isshiki-beach-hayama-in-the-summer/14660
 
 ### Why is my deposit is slightly higher than the actual offerered price?
 
-- The escrow account and the token account that receives your SOL requires rent fee to exist on Solana block-chain. When the transaction completes, sol-hayama closes those account and you will get your rent fee back to your wallet
-
+- The escrow account and the token account that receives your SOL requires rent fee to exist on Solana block-chain. When the transaction completes, Kalzom closes those account and you will get your rent fee back to your wallet
 
 ### I want to test it on devnet!
 
@@ -25,4 +24,4 @@ https://en.japantravel.com/kanagawa/isshiki-beach-hayama-in-the-summer/14660
 # Terms and Conditions, Disclaimer
 
 - By using this service you agree to the terms and disclaimer below
-- This service(sol-hayama) is relied on Solana block-chain architecture. Please use it at your own risk. sol-hayama and the service owner will not be liable for any use or misuse of this service.
+- This service(Kalzom) is relied on Solana block-chain architecture. Please use it at your own risk. Kalzom and the service owner will not be liable for any use or misuse of this service.

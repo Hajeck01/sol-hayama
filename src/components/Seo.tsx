@@ -38,7 +38,7 @@ export const Seo = ({
       <meta name="twitter:description" content={description} />
       <meta
         name="twitter:image"
-        content="https://hayama-image.s3.us-west-2.amazonaws.com/public/sol-hayama.png"
+        content="https://hayama-image.s3.us-west-2.amazonaws.com/public/Kalzom.png"
       />
       <meta name="twitter:image:alt" content="image" />
       <link rel="canonical" href={path} />

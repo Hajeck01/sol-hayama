@@ -1,6 +1,6 @@
-# Sol Hayama 🏖
+# Sol Kalzom 🏖
 
-[sol-hayama](https://www.sol-hayama.com) is the decentralized NFT trading platform built on top of Solana block-chain.
+[Kalzom](https://www.sol-hayama.com) is the decentralized NFT trading platform built on top of Solana block-chain.
 
 - Search NFTs from a user's account(supports metaplex data structure)
 - A programmatically generated escrow agent will manage the transaction and all transactions can be seen in Solana explorer
@@ -10,7 +10,6 @@ This is the frontend portion of the service. A smart contract(aka Program) that 
 ## Architecture in nutshell
 
 ![architecture](https://user-images.githubusercontent.com/6277118/137241270-4e88c0ac-31f0-4948-b310-5819e11680af.png)
-
 
 ## Setup
 
@@ -32,7 +31,7 @@ $ spl-token create-account  So11111111111111111111111111111111111111112
 **ProgramId for Escrow**
 
 - You also need to deploy the program on localhost's test-validator. See the instruction in the escrow-program-repo
-- After you deployed the contract, you should update the programId defined in `escrowProgramPublicKey` which is located at [constants.ts](https://github.com/tomoima525/sol-hayama/blob/main/src/constants.ts)
+- After you deployed the contract, you should update the programId defined in `escrowProgramPublicKey` which is located at [constants.ts](https://github.com/tomoima525/Kalzom/blob/main/src/constants.ts)
 
 ```
 export const escrowProgramPublicKey = new PublicKey(
@@ -79,17 +78,17 @@ Copyright 2021 Tomoaki Imai
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in the
 Software without restriction, including without limitation the rights to use,
-copy, modify, merge, publish, distribute, sublicense, and/or sell copies of 
+copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
 the Software, and to permit persons to whom the Software is furnished to do so,
 subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
-INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
 PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
-HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION 
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE
 OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
