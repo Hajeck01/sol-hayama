@@ -14,7 +14,7 @@ const uint64 = (property = "uint64") => {
   return BufferLayout.blob(8, property);
 };
 
-export const ESCROW_ACCOUNT_DATA_LAYOUT = BufferLayout.struct([
+export const ESCROW_ACCOUNT_DATA_LAYOUT = BufferLayout.struct<any>([
   BufferLayout.u8("isInitialized"),
   publicKey("initializerPubkey"),
   publicKey("initializerTempTokenAccountPubkey"),

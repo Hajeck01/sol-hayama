@@ -7,7 +7,6 @@ import {
   useReducer,
   useState,
 } from "react";
-import { dispatch } from "react-hot-toast/dist/core/store";
 
 const SearchStateContext = createContext<string | undefined>(undefined);
 const SearchDispatchContext = createContext<
